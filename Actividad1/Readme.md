@@ -34,3 +34,4 @@ d) En la consola de node.js, ejecutar el servidor con el siguiente comando>
 ```
 node server.js
 ```
+e) Navegar a http://localhost:3000
