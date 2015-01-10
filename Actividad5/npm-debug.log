@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'body/parser',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json socket-chat-example@0.0.2 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'body/parser', null ]
+8 verbose cache add name=undefined spec="body/parser" args=["body/parser",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'body/parser',
+9 verbose parsed url   path: 'body/parser',
+9 verbose parsed url   href: 'body/parser' }
+10 silly lockFile bf8f94b2-body-parser body/parser
+11 verbose lock body/parser C:\Users\Manuel\AppData\Roaming\npm-cache\bf8f94b2-body-parser.lock
+12 info maybeGithub Attempting body/parser from git://github.com/body/parser
+13 silly lockFile 1fca10d4-git-github-com-body-parser git://github.com/body/parser
+14 verbose lock git://github.com/body/parser C:\Users\Manuel\AppData\Roaming\npm-cache\1fca10d4-git-github-com-body-parser.lock
+15 verbose addRemoteGit [ 'git://github.com/body/parser', 'master' ]
+16 verbose git clone git://github.com/body/parser undefined
+16 verbose git clone git://github.com/body/parser undefined
+17 silly lockFile 1fca10d4-git-github-com-body-parser git://github.com/body/parser
+18 silly lockFile 1fca10d4-git-github-com-body-parser git://github.com/body/parser
+19 info maybeGithub Attempting body/parser from git+ssh://git@github.com:body/parser
+20 silly lockFile f9570ff4-git-github-com-body-parser git@github.com:body/parser
+21 verbose lock git@github.com:body/parser C:\Users\Manuel\AppData\Roaming\npm-cache\f9570ff4-git-github-com-body-parser.lock
+22 verbose addRemoteGit [ 'git@github.com:body/parser', 'master' ]
+23 error git clone git@github.com:body/parser undefined
+23 error git clone git@github.com:body/parser undefined
+24 silly lockFile f9570ff4-git-github-com-body-parser git@github.com:body/parser
+25 silly lockFile f9570ff4-git-github-com-body-parser git@github.com:body/parser
+26 silly lockFile bf8f94b2-body-parser body/parser
+27 silly lockFile bf8f94b2-body-parser body/parser
+28 error addLocal Could not install body/parser
+29 error Error: ENOENT, stat 'C:\Users\Manuel\Desktop\curso_websockets\WebSockets\Actividad4\body\parser'
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Windows_NT 6.2.9200
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "body/parser" "--save"
+33 error cwd C:\Users\Manuel\Desktop\curso_websockets\WebSockets\Actividad4
+34 error node -v v0.10.35
+35 error npm -v 1.4.28
+36 error path C:\Users\Manuel\Desktop\curso_websockets\WebSockets\Actividad4\body\parser
+37 error code ENOENT
+38 error errno 34
+39 verbose exit [ 34, true ]
